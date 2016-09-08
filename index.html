@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title> Andre & kylie</title>
+	<title> We're getting married!</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
@@ -12,18 +12,82 @@
 		<div class="container-fluid nav-custom">
 			<div class="navbar-header">
 			<a class="navbar-brand" href="#">
-				<img class="logo" src="images/logo.png">
+				<img class="logo" src="images/logo1.png">
 			</a>
 			</div>
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Our history</a></li>
-				<li><a href="#">Celebration map</a></li>
-				<li><a href="#">RSVP</a></li>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="history.html">Our history</a></li>
+				<li><a href="eventinfo.html">Event info</a></li>
+				<li><a href="rsvp.html">RSVP</a></li>
 			</ul>
 		</div>	
-	</nav>
+		</nav>
+		
+			<div id="container">
+				<div id="carroussel">
+					<ul>
+						<li>
+							<img src="images/image6.jpg" width="980" height="675" border="0" alt="Andre&Kylie" title="Andre&Kylie"/>
+						</li>
+						<li>
+							<img src="images/image7.jpg" width="980" height="675" border="0" alt="Andre&Kylie"  title="Andre&Kylie"/>
+						</li>
+						<li>
+							<img src="images/image8.jpg" width="980" height="675" border="0" alt="Andre&Kylie"  title="Andre&Kylie"/>
+						</li>
+						<li>
+							<img src="images/image9.jpg"  width="980" height="675" border="0"alt="Andre&Kylie"  title="Andre&Kylie"/>
+						</li>
+						<li>
+							<img src="images/image10.jpg"  width="980" height="675" border="0"alt="Andre&Kylie"  title="Andre&Kylie"/>
+						</li>
+						<li>
+							<img src="images/image1.jpg"  width="980" height="675" border="0"alt="Andre&Kylie"  title="Andre&Kylie"/>
+						</li>
+						<li>
+							<img src="images/image2.jpg"  width="980" height="675" border="0"alt="Andre&Kylie"  title="Andre&Kylie"/>
+						</li>
+						<li>
+							<img src="images/image3.jpg"  width="980" height="675" border="0"alt="Andre&Kylie"  title="Andre&Kylie"/>
+						</li>
+						<li>
+							<img src="images/image4.jpg"  width="980" height="675" border="0"alt="Andre&Kylie" title="Andre&Kylie""/>
+						</li>
+						<li>
+							<img src="images/image5.jpg"  width="980" height="675" border="0"alt="Andre&Kylie" title="Andre&Kylie"/>
+						</li>
+					</ul>
+				</div>
+				<!--<nav id="menu-carrossel"> // scroll using mouse 
+					<a href="#" class="prev" title="Previous">Prev</a>
+					<a href="#" class="next" title="Next">Next</a>
+				</nav>!-->
+			</div>
+		
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>	
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/jcarousellite.js"></script>
+<script>
+
+	/*$(function(){ //sroll using mouse
+		$("#carroussel"). jCarouselLite({
+			btnPrev: '.prev',
+			btnNext: '.next',
+			visible: 3
+		});
+	});*/
+
+	$("#carroussel").jCarouselLite({
+    auto: 800,
+    speed: 1000
+});
+
+</script>
 </body>
+
+
 </html>
